@@ -70,7 +70,10 @@ This table connects Customers and Products to analyze sales, trends, and custome
 STEP 4 
 RANK sql code 
 
-![RANK sql code](/images/rank%20sql%20.png)
+![RANK sql code](/images/rank%20sql%20.png) 
+
+Interpretation:
+These functions rank customers based on total revenue. ROW_NUMBER() gives a unique sequence, RANK() allows ties, DENSE_RANK() avoids gaps in ranks, and PERCENT_RANK() shows relative position as a percentage.
 
 rank results
 
@@ -79,6 +82,9 @@ rank results
 Aggregate sql code 
 
 ![Aggregate sql code](/images/aggregate%20sql%20code.png) 
+
+Interpretation:
+The query calculates cumulative sales (running_total) and 3-day moving averages (moving_avg). This helps identify sales trends and monitor business performance over time.
 
 Aggregate result
 
@@ -89,6 +95,9 @@ Navigation sql code
 
 ![Navigation sql code](/images/navigation%20sql.png) 
 
+Interpretation:
+LAG() compares current month sales with the previous month, showing growth. LEAD() shows the following month’s sales. This helps track changes over time and plan actions.
+
 Navigation result 
 
 ![Navigation result](/images/navigation%20result.png) 
@@ -96,7 +105,10 @@ Navigation result
 
 Distribution sql code
 
-![Navigation result](/images/distribution%20sql.png) 
+![Navigation sql code](/images/distribution%20sql.png) 
+
+Interpretation:
+NTILE(4) divides customers into 4 quartiles based on spending. CUME_DIST() shows each customer’s relative position. This helps segment customers for marketing or loyalty programs.
 
 Distribution results 
 
