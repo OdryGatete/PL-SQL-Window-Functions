@@ -42,3 +42,15 @@ This table helps us track who is buying our products and where they are located.
 ![Customers Table](/images/CUSTOMER%20TABLE.jpg)
 
 Product table
+
+The Products table stores all items available in the catalog.  
+It includes the product ID, name, and category.
+
+![Product table](/images/Product%20table.png)
+
+Transactions table 
+The Transactions table records all sales made by customers.  
+It includes the transaction ID, the customer and product involved (via foreign keys), the sale date, and the amount.  
+This table connects Customers and Products to analyze sales, trends, and customer behavior.
+![Product table](/images/Transaction%20table.png)
+
