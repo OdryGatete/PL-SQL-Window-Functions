@@ -173,6 +173,9 @@ LearnSQL.com – Partition By, Frame Clause
 Analytics Vidhya – SQL Business Use Cases
 
 
+"All sources were properly cited.implementations and analysis represent original work. No AI-generated content was copied without attribution or adaptation"
+
+
 
 
 
