@@ -65,7 +65,12 @@ Transactions table
 The Transactions table records all sales made by customers.  
 It includes the transaction ID, the customer and product involved (via foreign keys), the sale date, and the amount.  
 This table connects Customers and Products to analyze sales, trends, and customer behavior.
-![Transaction table](/images/Transaction%20table.png)
+![Transaction table](/images/Transaction%20table.png)  
+
+ER diagram 
+
+![ER diagram](/images/ER%20diagram.png) 
+
 
 STEP 4 
 RANK sql code 
@@ -113,6 +118,62 @@ NTILE(4) divides customers into 4 quartiles based on spending. CUME_DIST() shows
 Distribution results 
 
 ![Distribution result](/images/distribution%20result.png) 
+
+ STEP 6
+
+1. Descriptive – What happened?
+
+The Ranking functions showed the top customers by revenue. We can clearly see which customers spend the most and which are in the lower ranks.
+
+The Aggregate functions revealed running totals and moving averages, highlighting sales trends over time.
+
+The Navigation functions (LAG/LEAD) showed month-over-month growth and fluctuations, indicating periods of increased or decreased sales.
+
+The Distribution functions segmented customers into quartiles, helping identify high-value versus low-value clients.
+
+2. Diagnostic – Why did it happen?
+
+Top customers appear in multiple transactions or high-value purchases, which explains their high ranks.
+
+Fluctuations in monthly sales (seen in LAG/LEAD) are caused by seasonal buying patterns or promotions.
+
+Running totals and moving averages trend upward when consistent sales occur; dips indicate fewer transactions.
+
+Customer quartiles show natural spending distribution: a small percentage contributes to most revenue, while many customers spend less.
+
+3. Prescriptive – What next?
+
+Focus marketing campaigns on top-quartile customers to increase loyalty and repeat sales.
+
+Monitor months with lower sales and consider promotions or discounts to boost revenue.
+
+Use moving averages to forecast future sales and adjust inventory accordingly.
+
+Analyze lower-quartile customers to understand barriers and improve their engagement.
+
+- ## References
+Oracle Docs – Window Functions
+
+Oracle LiveSQL Tutorials
+
+Mode Analytics SQL Guide
+
+Vertabelo SQL Analytics Blog
+
+SQLShack – Window Functions Examples
+
+DataCamp – Advanced SQL Tutorial
+
+Towards Data Science – SQL Analytics Articles
+
+GeeksforGeeks – SQL Window Functions
+
+LearnSQL.com – Partition By, Frame Clause
+
+Analytics Vidhya – SQL Business Use Cases
+
+
+
 
 
 
