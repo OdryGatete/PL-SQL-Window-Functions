@@ -67,3 +67,48 @@ It includes the transaction ID, the customer and product involved (via foreign k
 This table connects Customers and Products to analyze sales, trends, and customer behavior.
 ![Transaction table](/images/Transaction%20table.png)
 
+STEP 4 
+RANK sql code 
+
+![RANK sql code](/images/rank%20sql%20.png)
+
+rank results
+
+![RANK results](/images/rank%20results%20.png)
+
+Aggregate sql code 
+
+![Aggregate sql code](/images/aggregate%20sql%20code.png) 
+
+Aggregate result
+
+![Aggregate result](/images/distribution%20result.png) 
+
+
+Navigation sql code
+
+![Navigation sql code](/images/navigation%20sql.png) 
+
+Navigation result 
+
+![Navigation result](/images/navigation%20result.png) 
+
+
+Distribution sql code
+
+![Navigation result](/images/distribution%20sql.png) 
+
+Distribution results 
+
+![Distribution result](/images/distribution%20result.png) 
+
+
+
+
+
+
+
+
+
+
+
