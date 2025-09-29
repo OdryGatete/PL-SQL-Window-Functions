@@ -34,7 +34,7 @@ Find 3-Month Moving Average of Sales:
 I will use AVG() OVER() to calculate the average sales for every 3-month period.
 
 STEP 3  
-Customer Table 
+Customer Table sql code
 ![Customers Table sql](/images/Customer%20sql%20croped.png)
 
 customer table sql code
