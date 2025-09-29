@@ -4,9 +4,12 @@
 # PL-SQL-Window-Functions
 ## Course:  Database Development with PL/SQL
 ## Lecturer: Eric Maniraguha
-Assignment on PL/SQL Window Functions 2025
+                              Assignment on PL/SQL Window Functions 2025
+                              
    STEP 1
+   
 Business Context:
+
 Ishingiro Supermarket has branches across all rwanda and it wants to understand its customer's behaviour and how their product are performing among their branches the sales and marketing team needs reliable information for sales and stock planning
 
 Data challenge:
